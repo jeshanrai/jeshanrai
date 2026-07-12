@@ -142,7 +142,7 @@
 ## 📊 My GitHub contributions summary
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=jeshanrai&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub streak" />
+  <img src="./github-streak.svg" alt="GitHub streak" />
 </p>
 
 <p align="center">

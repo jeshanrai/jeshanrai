@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - main
+    # Without this, the SVGs the workflow commits would re-trigger the workflow.
+    paths-ignore:
+      - "*.svg"
 
 permissions:
   contents: write
@@ -40,3 +43,39 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
+
+  streak:
+    needs: github-metrics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Fetched here rather than hotlinked from the README: the public instance
+      # cold-starts for ~30s, long enough that GitHub's image proxy gives up and
+      # caches the failure permanently.
+      - name: Fetch streak card
+        run: |
+          url="https://streak-stats.demolab.com/?user=jeshanrai&theme=tokyonight&hide_border=true&border_radius=8"
+          for attempt in 1 2 3 4 5; do
+            if curl -sf --max-time 90 -o /tmp/streak.svg "$url" \
+               && grep -q "Current Streak" /tmp/streak.svg; then
+              mv /tmp/streak.svg github-streak.svg
+              echo "fetched on attempt $attempt"
+              exit 0
+            fi
+            echo "attempt $attempt failed, retrying..."
+            sleep 20
+          done
+          echo "::warning::streak service unreachable; keeping the previously committed card"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-streak.svg
+          if git diff --quiet --cached; then
+            echo "streak card unchanged"
+          else
+            git commit -m "Update streak card"
+            git push
+          fi
