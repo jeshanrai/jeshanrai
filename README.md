@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Full-stack developer building <b>scalable web and mobile applications</b> — from pixel to production.
+  Full-stack developer building <b>scalable web and mobile applications</b>
 </p>
 
 ---
