@@ -137,6 +137,15 @@
 ![Thunder Client](https://img.shields.io/badge/Thunder_Client-5CB85C?style=flat-square)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
 
+**Analytics & SEO**
+
+![Google Analytics](https://img.shields.io/badge/Google_Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white)
+![Google Tag Manager](https://img.shields.io/badge/Google_Tag_Manager-246FDB?style=flat-square&logo=googletagmanager&logoColor=white)
+![Google Search Console](https://img.shields.io/badge/Google_Search_Console-458CF5?style=flat-square&logo=googlesearchconsole&logoColor=white)
+![PageSpeed Insights](https://img.shields.io/badge/PageSpeed_Insights-4285F4?style=flat-square&logo=pagespeedinsights&logoColor=white)
+![Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=flat-square&logo=lighthouse&logoColor=white)
+![Semrush](https://img.shields.io/badge/Semrush-FF642D?style=flat-square&logo=semrush&logoColor=white)
+
 ---
 
 ## 📊 My GitHub contributions summary
