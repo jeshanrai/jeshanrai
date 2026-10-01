@@ -21,14 +21,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="203.9643107612529" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="203.9643107612529" y="0" width="184.89559155948157" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="388.85990232073453" y="0" width="38.729461361689964" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="427.58936368242445" y="0" width="17.88312509141567" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="445.47248877384015" y="0" width="6.228320199627284" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="451.7008089734674" y="0" width="4.736538459650683" height="8" fill="#fcb32c"/>
-                    <rect mask="url(#languages-bar)" x="456.43734743311813" y="0" width="2.356996441818124" height="8" fill="#336790"/>
-                    <rect mask="url(#languages-bar)" x="458.79434387493626" y="0" width="1.2056561250637894" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="204.54860536633964" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="204.54860536633964" y="0" width="184.47364453727647" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="389.0222499036161" y="0" width="38.641077529737345" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="427.66332743335346" y="0" width="17.842314321854314" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="445.50564175520776" y="0" width="6.214106658139317" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="451.7197484133471" y="0" width="4.725729287394314" height="8" fill="#fcb32c"/>
+                    <rect mask="url(#languages-bar)" x="456.44547770074144" y="0" width="2.3516175811239073" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="458.7970952818653" y="0" width="1.2029047181347043" height="8" fill="#3572A5"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -40,8 +40,8 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>6.32 MB</div>
-                                <div>44.34%</div>
+                                <div>6.36 MB</div>
+                                <div>44.47%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -53,7 +53,7 @@
                             </div>
                             <small>
                                 <div>1.20 MB</div>
-                                <div>8.42%</div>
+                                <div>8.4%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -91,7 +91,7 @@
                             </div>
                             <small>
                                 <div>5.73 MB</div>
-                                <div>40.19%</div>
+                                <div>40.1%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -103,7 +103,7 @@
                             </div>
                             <small>
                                 <div>554 kB</div>
-                                <div>3.89%</div>
+                                <div>3.88%</div>
                             </small>
                         </div>
                         <div class="field language details">
